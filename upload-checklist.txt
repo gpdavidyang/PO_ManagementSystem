@@ -1,0 +1,23 @@
+GitHub 업로드 체크리스트:
+
+필수 파일들:
+□ package.json
+□ package-lock.json
+□ README.md
+□ .gitignore
+□ tsconfig.json
+□ vite.config.ts
+□ tailwind.config.ts
+□ drizzle.config.ts
+
+폴더 전체:
+□ client/ (React 프론트엔드)
+□ server/ (Express 백엔드) 
+□ shared/ (공통 타입/스키마)
+□ migrations/ (DB 마이그레이션)
+
+제외할 것들:
+□ node_modules/ (.gitignore에 있음)
+□ dist/ (.gitignore에 있음)
+□ uploads/ (업로드된 파일들)
+□ .cache/ (캐시 파일들)
