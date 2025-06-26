@@ -48,3 +48,4 @@ po-management-system.tar.g
 attached_assets/
 node_modules/
 project-clean.tar.gz
+*.tar.gz
